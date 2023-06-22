@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Based on Node 20 + Strictest",
+
+  "compilerOptions": {
+    // @tsconfig/node20 (minus strictest)
+    "lib": ["es2023"],
+    "module": "Node16",
+    "target": "es2022",
+
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+
+    // @tsconfig/strictest
+    "strict": true,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    // "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    "forceConsistentCasingInFileNames": true,
+
+    // Custom rules
+    // Override "strictest" config above and allow assigning `undefined` to optional properties.
+    "exactOptionalPropertyTypes": false
+  }
+}

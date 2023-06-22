@@ -1,0 +1,12 @@
+{
+  "name": "@arcanyx/tsconfig-node-base",
+  "version": "1.0.0",
+  "description": "tsconfig.json base for Arcanyx NodeJS/TS projects",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arcanyx-pub/tsconfig-node-base.git"
+  },
+  "author": "Joe Dahlqusit <joe@arcanyx.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/arcanyx-pub/tsconfig-node-base#readme"
+}
